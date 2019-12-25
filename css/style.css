@@ -49,10 +49,10 @@ h3, p, h4, h2, h1, h6{
     font-size: 32px;
     text-shadow: 0 0 01px;
 }
-.buttons:hover {
+.resp:hover {
     filter: brightness(0.8);
 }
-.buttons:active {
+.resp:active {
     filter: brightness(0.7); 
 }
 
@@ -61,6 +61,10 @@ body {
     animation-duration: 0.5s;
     animation-timing-function: ease-in;
 }
+#section2 {
+    height: 300vh;
+}
+
 
 @keyframes alphaIn {
     from {
@@ -82,7 +86,12 @@ body {
     h2 {
         font-size: 40px;
     }
-
+    #section2 {
+        height: 100vh !important; 
+    }
+    #section3 {
+        height: 180vh;
+    }
 }
 
 .thin {
@@ -111,4 +120,15 @@ body {
 
 .oli {
     display: inline-flex
+}
+
+.info-div {
+    background-color: red; height: 20vh; margin-bottom: 10px;
+    flex-direction: column;
+}
+
+
+.image {
+    width: 100%;
+
 }
