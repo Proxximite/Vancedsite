@@ -1,9 +1,8 @@
 
 
-@media (prefers-color-scheme: dark){
-    body{
-    background-color: #121212;}
-
+body {
+    background-color: #121212;
+}
 
 
 #colorBackground {
@@ -132,4 +131,4 @@ body {
 .image {
     width: 100%;
 
-}}
+}
