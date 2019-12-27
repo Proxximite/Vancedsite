@@ -1,134 +1,140 @@
-
-
 body {
-    background-color: #121212;
+  background-color: #121212;
 }
 
-
 #colorBackground {
-    background-color: #282828;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh; 
-    max-height: 100vh;
+  background-color: #282828;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .links {
-    margin: 0 20px 0 20px;
-    display: inline-block;
-    color: #ffffff;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius: 30px;
+  margin: 0 20px 0 20px;
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 30px;
 }
 
 .socialtext {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .social:hover {
-    background-color: #000000;
-    transition-duration: 0.5s;
-    color: #ffffff;
+  background-color: #000000;
+  transition-duration: 0.5s;
+  color: #ffffff;
 }
 #bioColumn {
-    height: 100vh;
-    top: 0;
+  height: 100vh;
+  top: 0;
 }
 
-h3, p, h4, h2, h1, h6{
-    color: #787878;
+h3,
+p,
+h4,
+h2,
+h1,
+h6 {
+  color: #787878;
 }
 .buttons {
-    height: 80px;
-    margin: 10px 10px 15px 10px;
-    border-radius: 12px;
-    width: 200px;
-    font-family: roboto;
-    color: white;
-    font-size: 32px;
-    text-shadow: 0 0 01px;
+  height: 80px;
+  margin: 10px 10px 15px 10px;
+  border-radius: 12px;
+  width: 200px;
+  font-family: roboto;
+  color: white;
+  font-size: 32px;
+  text-shadow: 0 0 01px;
 }
 .resp:hover {
-    filter: brightness(0.8);
+  filter: brightness(0.8);
 }
 .resp:active {
-    filter: brightness(0.7); 
+  filter: brightness(0.7);
 }
 
 body {
-    animation-name: alphaIn;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in;
+  animation-name: alphaIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
 }
 #section2 {
-    height: 300vh;
+  height: 300vh;
 }
 
-
 @keyframes alphaIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .under-image {
-        margin-top: -5px;
-        margin-bottom: 30px;       
-    }
-    .buttons {
-        height: 80px
-    }
-    h2 {
-        font-size: 40px;
-    }
-    #section2 {
-        height: 100vh !important; 
-    }
-    #section3 {
-        height: 180vh;
-    }
+  .under-image {
+    margin-top: -5px;
+    margin-bottom: 30px;
+  }
+  .buttons {
+    height: 80px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  #section2 {
+    height: 100vh !important;
+  }
+  #section3 {
+    height: 180vh;
+  }
 }
 
 .thin {
-    font-weight: 300 !important;
+  font-weight: 300 !important;
 }
 
 @media only screen and (max-height: 750px) {
-    #colorBackground {
-        min-height: 750px;
-        max-height: 750px;
-    }
-    .headtexting {
-        position: absolute; bottom:0
-    }
+  #colorBackground {
+    min-height: 750px;
+    max-height: 750px;
+  }
+  .headtexting {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .under-image {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 #VANCED {
-    background: -webkit-linear-gradient(50deg, rgba(46,115,255,1) 0%, rgba(255,0,50,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(
+    50deg,
+    rgba(46, 115, 255, 1) 0%,
+    rgba(255, 0, 50, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .oli {
-    display: inline-flex
+  display: inline-flex;
 }
 
 .info-div {
-    background-color: red; height: 20vh; margin-bottom: 10px;
-    flex-direction: column;
+  background-color: red;
+  height: 20vh;
+  margin-bottom: 10px;
+  flex-direction: column;
 }
 
-
 .image {
-    width: 100%;
-
+  width: 100%;
 }
